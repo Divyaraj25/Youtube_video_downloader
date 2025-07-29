@@ -1,4 +1,3 @@
-````markdown
 # YouTube Downloader (pytubefix)
 
 This is a simple yet powerful desktop application built with Python and Tkinter, leveraging the `pytubefix` library to download YouTube videos, audio, and entire playlists. It provides a user-friendly graphical interface with real-time logging and progress tracking.
@@ -7,12 +6,12 @@ This is a simple yet powerful desktop application built with Python and Tkinter,
 
 ## Features
 
-- **Download Types:** Choose to download single videos, audio-only versions, or entire playlists.
-- **Quality Selection:** For single videos and playlists, select from available resolutions and audio bitrates.
-- **Progress Bar:** Visual feedback on download progress.
-- **Detailed Logging:** A dedicated log area provides real-time status updates, including connection details, download progress, and error messages.
-- **Thread-Safe Operations:** Downloads run in separate threads, keeping the UI responsive.
-- **Directory Selection:** Easily choose where to save your downloaded files.
+* **Download Types:** Choose to download single videos, audio-only versions, or entire playlists.
+* **Quality Selection:** For single videos and playlists, select from available resolutions and audio bitrates.
+* **Progress Bar:** Visual feedback on download progress.
+* **Detailed Logging:** A dedicated log area provides real-time status updates, including connection details, download progress, and error messages.
+* **Thread-Safe Operations:** Downloads run in separate threads, keeping the UI responsive.
+* **Directory Selection:** Easily choose where to save your downloaded files.
 
 ---
 
@@ -20,12 +19,12 @@ This is a simple yet powerful desktop application built with Python and Tkinter,
 
 Before running the application, ensure you have the following installed:
 
-- **Python 3.x:** Download from [python.org](https://www.python.org/).
-- **`pytubefix` library:** Install it using pip:
-  ```bash
-  pip install pytubefix
-  ```
-- **`tkinter` (usually bundled with Python):** If you encounter issues, you might need to install it separately depending on your Python distribution.
+* **Python 3.x:** Download from [python.org](https://www.python.org/).
+* **`pytubefix` library:** Install it using pip:
+    ```bash
+    pip install pytubefix
+    ```
+* **`tkinter` (usually bundled with Python):** If you encounter issues, you might need to install it separately depending on your Python distribution.
 
 ---
 
@@ -54,21 +53,20 @@ Before running the application, ensure you have the following installed:
 
 The application includes basic error handling and will display messages in the log area for issues such as:
 
-- Invalid URLs
-- Network connection problems
-- No compatible streams found
-- Empty or private playlists
+* Invalid URLs
+* Network connection problems
+* No compatible streams found
+* Empty or private playlists
 
 ---
 
 ## Troubleshooting
 
-- **"FATAL ERROR: Could not fetch details..."**:
-  - Double-check that the URL is correct and accessible.
-  - Ensure you have an active internet connection.
-  - Sometimes YouTube might block `pytubefix` temporarily; try again later.
-- **Downloads are slow or get stuck**:
-  - Your internet connection might be unstable.
-  - YouTube's servers might be experiencing high traffic.
-- **`tkinter` not found**: If you get an error related to `tkinter`, ensure it's properly installed with your Python distribution.
-````
+* **"FATAL ERROR: Could not fetch details..."**:
+    * Double-check that the URL is correct and accessible.
+    * Ensure you have an active internet connection.
+    * Sometimes YouTube might block `pytubefix` temporarily; try again later.
+* **Downloads are slow or get stuck**:
+    * Your internet connection might be unstable.
+    * YouTube's servers might be experiencing high traffic.
+* **`tkinter` not found**: If you get an error related to `tkinter`, ensure it's properly installed with your Python distribution.
